@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-weight: 100;
+    /* background: url('../images/tpcetbackground.jpg') center no-repeat; */
+}
+
+
+#askbutton {
+    position: fixed;
+    right: 3%;
+    bottom: 0%;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+
+.header {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #101596, #9fc6c6) repeat scroll 0 0;
+   border-radius: 0px 0px 0px 0px;
+   padding: 3px;
+}
+
+
+
+.chatbox {
+  border-radius:0px 0px 0px 0px ;
+}
+
+.chatcontentcontainer {
+    overflow: hidden;
+    background-color: #101596;
+    position: fixed !important;    
+    display: block;
+    right: 0; 
+    bottom: 0%;
+    padding: 0%; 
+    z-index: 1000;
+}
+
+#closebutton{
+cursor: pointer;
+}
