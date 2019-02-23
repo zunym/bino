@@ -1649,7 +1649,7 @@
 
                                 <div id="rightbar" class="span5">
                                     <div class="row-fluid">
-                                        <div class="span5" style="margin-top: 15px; margin-left: 0; margin-right: 15%; float: right;" title="Close conversation">
+                                        <div class="span5" style="margin-top: 15px; margin-left: 25px; margin-right: 25px; float: left;" title="Close conversation">
                                             <p id="closebutton" class="ui-icon ui-icon-closethick">&nbsp;</p>
                                         </div>
                                     </div>
@@ -1674,6 +1674,12 @@
                     $("#askbutton").show();
                     $('#chatframe').attr('src', $('#chatframe').attr('src'));
                 });
+                //close button click function
+                // $("#closebuttons").click(function () {
+                //     $("#chatcontent").slideToggle();
+                //     $("#askbutton").show();
+                //     $('#chatframe').attr('src', $('#chatframe').attr('src'));
+                // });
 
                 //To enable dragging of the chatbot window
                 $("#chatcontent").draggable();
